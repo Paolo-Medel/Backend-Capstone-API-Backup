@@ -1,0 +1,67 @@
+[
+  {
+    "model": "volunteerapi.VolunteerUsers",
+    "pk": 1,
+    "fields": {
+      "bio": "Passionate about volunteering and making a difference.",
+      "profile_image_url": "https://www.example.com/profile1.jpg",
+      "created_on": "2022-12-01T08:30:00Z",
+      "is_business": false,
+      "user": 1,
+      "cause_area": [1, 2],
+      "favorite": [1, 2]
+    }
+  },
+  {
+    "model": "volunteerapi.VolunteerUsers",
+    "pk": 2,
+    "fields": {
+      "bio": "bio 2",
+      "profile_image_url": "https://www.example.com/profile2.jpg",
+      "created_on": "2022-12-01T08:30:00Z",
+      "is_business": false,
+      "user": 2,
+      "cause_area": [1, 2],
+      "favorite": [3, 4]
+    }
+  },
+  {
+    "model": "volunteerapi.VolunteerUsers",
+    "pk": 3,
+    "fields": {
+      "bio": "bio 3",
+      "profile_image_url": "https://www.example.com/profile3.jpg",
+      "created_on": "2022-12-01T08:30:00Z",
+      "is_business": false,
+      "user": 3,
+      "cause_area": [2],
+      "favorite": []
+    }
+  },
+  {
+    "model": "volunteerapi.VolunteerUsers",
+    "pk": 4,
+    "fields": {
+      "bio": "bio 4",
+      "profile_image_url": "https://www.example.com/profile4.jpg",
+      "created_on": "2022-12-01T08:30:00Z",
+      "is_business": false,
+      "user": 4,
+      "cause_area": [2],
+      "favorite": []
+    }
+  },
+  {
+    "model": "volunteerapi.VolunteerUsers",
+    "pk": 5,
+    "fields": {
+      "bio": "bio 5",
+      "profile_image_url": "https://www.example.com/profile5.jpg",
+      "created_on": "2022-12-01T08:30:00Z",
+      "is_business": true,
+      "user": 5,
+      "cause_area": [2],
+      "favorite": []
+    }
+  }
+]

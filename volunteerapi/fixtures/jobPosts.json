@@ -1,0 +1,62 @@
+[
+  {
+    "model": "volunteerapi.jobposts",
+    "pk": 1,
+    "fields": {
+      "title": "Opportunity 1",
+      "image_url": "https://www.columbus.in.gov/human-rights/wp-content/uploads/sites/8/2021/12/Copy-of-Volunteer.png",
+      "approved": true,
+      "user": 1,
+      "content": "Opportunity number 1 content",
+      "address": "123 wallaby way, Nemo Island, FL, 32223",
+      "cause_area": [1, 2, 3],
+      "interested_volunteers": [1],
+      "publication_date": "2022-01-10"
+    }
+  },
+  {
+    "model": "volunteerapi.jobposts",
+    "pk": 2,
+    "fields": {
+      "title": "Opportunity 2",
+      "image_url": "https://www.example.com/image2.png",
+      "approved": true,
+      "user": 2,
+      "content": "Opportunity number 2 content",
+      "address": "456 Kangaroo Street, Outback City, AU, 54321",
+      "cause_area": [2, 4],
+      "interested_volunteers": [2, 3],
+      "publication_date": "2022-02-15"
+    }
+  },
+  {
+    "model": "volunteerapi.jobposts",
+    "pk": 3,
+    "fields": {
+      "title": "Opportunity 3",
+      "image_url": "https://www.example.com/image3.png",
+      "approved": true,
+      "user": 3,
+      "content": "Opportunity number 3 content",
+      "address": "789 Maple Street, Forest Town, CA, 98765",
+      "cause_area": [1, 3],
+      "interested_volunteers": [1, 2, 3],
+      "publication_date": "2022-03-20"
+    }
+  },
+  {
+    "model": "volunteerapi.jobposts",
+    "pk": 4,
+    "fields": {
+      "title": "Opportunity 4",
+      "image_url": "https://www.example.com/image4.png",
+      "approved": true,
+      "user": 4,
+      "content": "Opportunity number 4 content",
+      "address": "101 Pine Avenue, Mountain Town, NY, 54321",
+      "cause_area": [4, 5],
+      "interested_volunteers": [4],
+      "publication_date": "2022-04-25"
+    }
+  }
+]
