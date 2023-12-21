@@ -28,7 +28,8 @@ def login_user(request):
             'valid': True,
             'token': token.key,
             'is_business': authenticated_user.volunteerusers.is_business,
-            'volunteer_user_id': authenticated_user.volunteerusers.id
+            'volunteer_user_id': authenticated_user.volunteerusers.id,
+            'user_id': authenticated_user.id
         }
         return Response(data)
     else:
@@ -76,6 +77,7 @@ def register_user(request):
         'valid': True,
         'token': token.key,
         'is_business': new_user.volunteerusers.is_business,
-        'volunteer_user_id': new_user.volunteerusers.id 
+        'volunteer_user_id': new_user.volunteerusers.id, 
+        'user_id': new_user.id, 
     }
     return Response(data)

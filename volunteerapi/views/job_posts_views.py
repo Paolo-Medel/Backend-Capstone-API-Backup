@@ -20,7 +20,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('author_name',)
+        fields = ('author_name', 'email')
 
 class VolunteerUserSerializer(serializers.ModelSerializer):
     user = UserSerializer(many=False)  
